@@ -1,0 +1,133 @@
+Zodziai ir ju pasikartojamu vieta:
+
+11032: 17 20 22 
+11033: 17 22 
+1500s: 2 21 
+1914: 23 32 
+45: 14 18 
+a: 2 3 7 7 7 8 11 13 14 16 18 20 26 28 29 33 38 40 40 41 46 
+all: 27 32 
+also: 3 22 
+always: 30 50 
+and: 1 3 5 10 11 12 16 17 18 22 33 33 33 38 42 42 44 44 45 46 47 48 48 49 
+are: 22 24 26 36 42 44 46 
+as: 9 10 28 45 
+at: 8 14 
+avoids: 35 41 
+bc: 14 18 
+be: 7 26 47 49 
+because: 35 35 37 37 
+bonorum: 17 22 
+book: 3 18 
+but: 3 24 32 35 37 40 48 
+by: 7 12 18 22 23 23 25 32 43 43 
+cicero: 18 22 
+circumstances: 38 48 
+classical: 13 16 
+comes: 17 20 
+consequences: 36 41 
+content: 7 9 9 
+de: 17 22 
+desktop: 5 10 
+do: 35 47 
+dummy: 1 2 
+duty: 44 48 
+english: 9 23 
+et: 17 22 
+ever: 2 39 
+every: 47 48 
+finibus: 17 22 
+first: 19 28 
+for: 11 21 
+form: 23 25 
+free: 30 46 
+from: 14 15 17 20 22 23 30 40 45 
+going: 16 26 
+great: 34 38 
+h: 23 32 
+has: 1 3 8 13 40 41 
+have: 11 24 49 
+he: 50 51 
+here: 9 9 
+how: 32 36 
+humour: 12 25 31 
+i: 32 33 
+in: 4 11 13 15 16 18 20 22 25 27 38 44 46 48 50 
+injected: 12 25 31 
+internet: 27 28 
+ipsum: 1 1 5 6 8 10 11 13 16 17 19 19 21 24 26 27 30 30 
+is: 1 7 8 13 18 21 30 35 36 37 45 46 47 
+it: 3 3 4 7 8 9 13 14 28 35 37 40 49 
+itself: 35 37 
+latin: 14 14 15 29 
+like: 6 9 12 47 
+line: 19 20 
+literature: 14 16 
+look: 9 25 
+lorem: 1 1 5 6 8 10 11 13 16 17 19 19 21 24 26 27 30 30 
+making: 9 14 28 
+malorum: 18 22 
+man: 40 50 
+many: 9 11 24 
+model: 10 29 
+more: 5 15 
+no: 34 41 41 
+not: 3 13 35 
+obtain: 37 39 
+occur: 38 49 
+of: 1 2 5 6 7 8 8 13 15 16 17 18 19 19 21 24 24 26 27 29 29 32 33 34 34 34 37 39 43 43 45 46 48 49 50 
+on: 12 18 27 28 42 
+one: 15 34 41 
+or: 25 31 35 37 37 41 48 51 
+other: 42 51 
+our: 46 47 
+over: 12 14 29 
+page: 7 10 
+pain: 33 37 37 38 41 44 45 48 
+pains: 51 51 
+passage: 16 26 
+passages: 5 24 
+pleasure: 33 35 35 36 38 40 41 43 47 
+pleasures: 49 50 51 
+popular: 13 19 
+publishing: 5 10 
+rackham: 23 32 
+readable: 7 9 
+rejects: 35 50 
+reproduced: 21 22 
+sections: 17 22 
+simply: 1 13 
+since: 2 21 
+so: 42 43 
+some: 25 38 39 
+sometimes: 12 12 
+standard: 2 21 
+text: 1 2 10 13 27 
+that: 7 8 36 40 41 43 44 49 
+the: 1 1 2 3 4 4 7 8 12 12 15 16 16 16 18 18 19 19 21 21 23 24 27 27 27 28 28 30 33 34 34 34 34 42 43 43 44 45 48 48 49 
+their: 10 11 23 44 
+there: 24 26 37 
+therefore: 30 50 
+these: 45 50 
+this: 18 28 32 50 
+those: 21 35 44 
+through: 16 45 45 
+to: 3 9 13 26 26 27 29 32 36 37 38 39 40 40 44 44 46 47 47 48 49 50 50 51 
+toil: 38 45 
+translation: 23 32 
+type: 2 3 
+typesetting: 1 4 
+use: 10 26 
+using: 8 9 
+versions: 6 11 23 
+was: 4 33 
+we: 42 47 
+web: 10 11 
+when: 2 7 46 47 
+which: 25 30 38 39 45 
+who: 35 37 40 40 41 42 44 
+will: 7 11 33 45 49 
+with: 4 5 29 40 42 
+words: 15 25 29 31 
+years: 12 14 
+you: 26 26 32 33 
