@@ -7,6 +7,7 @@
 #include <map>
 #include <algorithm> //std::transform
 #include <iterator>
+#include <regex>
 
 using std::cin;
 using std::cout;
@@ -20,6 +21,8 @@ using std::multimap;
 using std::ofstream;
 using std::remove_if;
 using std::transform;
+using std::regex;
+using std::regex_match;
 
 
 bool arEgzistuoja(string duomFailas);

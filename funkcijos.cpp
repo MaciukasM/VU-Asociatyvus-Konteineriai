@@ -1,10 +1,17 @@
 #include "headeriai.hpp"
 
+regex tikrinimui ("(((http|https)://)?www\\.)?[a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)");
+
 //pagal zodi galesim ziuret, kiek kas (ir kur) pasikartoja
 map<string, int> zodziuSkaicius;
 multimap<string, int> kuriojeEiluteje; //multimap, kad galetume naudoti duplikatus
 
 map<int, string> linkai; //linkams saugoti
+
+bool arLinkas(string a)
+{
+    return regex_match(a, tikrinimui);
+}
 
 bool arEgzistuoja(string duomFailas)
 {
@@ -51,7 +58,7 @@ void DarbasSuEilute(string eilute, int &kelintas, int &eilSk)
 {
     //kad galetume laisvai keisti string'a kiekvienai uzduociai
     string eil1 = eilute;
-    string eil3 = eilute; 
+    string eil3 = eilute;
 
     int pointeris = 0; //veiks kaip pointeris, tik rodys nuo kurio simbolio kazka rado
     string zodis; //norint isskirti zodi is string'o
@@ -59,21 +66,27 @@ void DarbasSuEilute(string eilute, int &kelintas, int &eilSk)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 3 daliai atlikti (linkams)
 
-    vector<string> protocol = { "www", "https", "http" };
-
-    for(int i = 0; i < 3; i++)
+    while(eil3.length()!=0) //tikrina zodi po zodzio ar jis yra linkas
     {
-        while(eil3.length()!=0 && eil3.find(protocol[i])!=string::npos) //randa ir push_back'ina link'us
+        pointeris = eil3.find(' ');
+        if(pointeris!=string::npos)
         {
-            pointeris = eil3.find(protocol[i]);
-            if(i==0)
+            zodis = eil3.substr(0, eil3.find(' '));
+            if(arLinkas(zodis)) 
             {
-                while(eil3[pointeris-1]!=' ') pointeris--;
+                linkai.insert(make_pair(kelintas, zodis));
+                kelintas++;
             }
-            IstrinkIkiPointerio(pointeris, eil3);
-            linkai.insert(make_pair(kelintas, eil3.substr(0, eil3.find(' '))));
-            kelintas++;
             IstrinkIkiPointerio(eil3.find(' '), eil3);
+        }
+        else
+        {
+            if(arLinkas(eil3)) 
+            {
+                linkai.insert(make_pair(kelintas, eil3));
+                kelintas++;
+            }
+            eil3.erase();
         }
     }
 
