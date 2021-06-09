@@ -1,6 +1,11 @@
 # VU-Asociatyvus-Konteineriai
 Ši programa nuskaito duotą tekstinį failą ir į 3 tekstinius failus išveda rezultatus naudojant asociatyvius konteinerius 'map' ir 'multimap'.
 
+## Versijos
+
+* [v1.0](https://github.com/MantasM2001/VU-Asociatyvus-Konteineriai/releases/tag/v1.0) - Pradinė versija, nuskaitanti duotą tekstinį failą ir į 3 tekstinius failus išvedanti rezultatus naudojant asociatyvius konteinerius 'map' ir 'multimap'.
+* [v1.1](https://github.com/MantasM2001/VU-Asociatyvus-Konteineriai/releases/tag/v1.1) - Pataisyta, kad rastų visokias nuorodas (pvz. vu.lt).
+
 ## Diegimas
 
 Atsisiųskite programą iš repozitorijos releas'ų (prireikus iškelkite .cpp ir .h failus iš aplanko su pasirinkta programa, pvz. WinRar). Tuomet sukompiliuokite norimoje programoje ar aplinkoje (arba su kitais įrankiais):
@@ -81,4 +86,5 @@ Teksto nuorodos:
 2. http://www.cplusplus.com/reference/string/string/find/
 3. https://www.lipsum.com/
 4. www.vu.lt
+5. vu.lt
 ```
